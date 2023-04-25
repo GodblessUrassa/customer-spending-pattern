@@ -76,6 +76,9 @@ RFM analysis was done using purchasing history data.
 * Occasional high-spending customers who spend between $11,870 and $1,854,485 per order
 * In 2012, the company lost 2,283 high-spending customers; in 2013 the company is at risk of losing 5,968 high-spending customers.
 
-
+# Recommendations
+* Since the company have high-spending customers at large that contribute significantly to company's revenue, they should personalize the marketing campaigns and promotions that will encourage them to make more purchases. For example Accessories products can be sold in promotion
+* Encourage low/medium and medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts 
+* Seasonal and infrequently purchasers.In this segment the company can implement loayalty programs for infrequently customers to return more often and limited-time offers to encourage customers to make purchse before the offer expires
 
 
