@@ -52,6 +52,8 @@ RFM analysis was done using purchasing history data.
 
 ![](purchase_history.jpg)
 
+click [here](https://app.powerbi.com/view?r=eyJrIjoiMDE3NDcyMTEtM2Y5NC00OTkwLWFiMzgtYjBiNjdiMTMzZjlmIiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9) to interact with both visuals.
+
 # Insights
 ### Purchase by demographic segments
 * Customers with single marital status spend more than married customers. Single customers spend more on accessories and clothing while married customers spend more on bikes
