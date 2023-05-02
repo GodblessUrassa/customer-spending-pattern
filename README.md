@@ -18,75 +18,36 @@ The analysis was done in two segments, that is analysis based on demographic dat
 * Using demographic data, customer spending was analyzed based on their income, marital status, gender, and age group
 * Using purchase history, customer spending was analyzed based on their total purchase made with time, products spending, and monetary spending
 
-Power BI was connected to SQL server database to access SellCheapy retail data.
+## Dashboard
+You can interact with dashboard by clicking [here](https://public.tableau.com/views/Customerspending_16829639821940/SELLCHEAPYRETAILCUSTOMERSPENDING?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop)
 
-![](importation.jpg)
+## Insights
 
-# Data transformation
-The imported data was transformed by power query before being loaded. 
-
-![](transform.jpg)
-
-In transformation, the common activities done are changing data types, removing columns that weren't used, merging queries, renaming columns, reordering columns, and filtering. 
-
-# Data modeling
-I used a star schema data model to organize data for easy understanding and analysis. Sales.SalesOrderHeader was a fact table.
-
-![](Modelling.jpg)
-
-# Analysis
-The analysis was done in two segments, that is analysis based on demographic data of customers and analysis based on purchasing history of customers. 
-
-### RFM analysis
-RFM analysis was done using purchasing history data.
-* Recency is the number of years since the last order was placed by a customer. The purpose was to understand customer relationship with the company and how many customers did the company lost or is at risk of losing which will decrease company sales
-* Frequency is the total number of orders placed by a customer. The purpose was to understand how frequently orders are placed.
-* Monetary is the sum of total due per order. The purpose was to understand customer spending per order. 
-
-### Terms meaning
-* TotalDue - total money a customer is paying. It includes tax, freight and subtotal
-* List price - selling price of the product
-* Accessories - additional products example helments and hydration packs 
-* Components - bicycle components example chains and brakes
-* Clothing - cloth materials for cyclist example gloves and jersey
-* IN - individual customer
-* SC - store customer, a wholesaler
-
-# Visuals for Demographic Segments
-
-![](demographic.jpg)
-
-# Visuals for Purchasing History
-
-![](purchase_history.jpg)
-
-#### click [here](https://app.powerbi.com/view?r=eyJrIjoiMDE3NDcyMTEtM2Y5NC00OTkwLWFiMzgtYjBiNjdiMTMzZjlmIiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9) to interact with both visuals.
-
-# Insights
-### Purchase by demographic segments
+1. Demographic
 * Customers with single marital status spend more than married customers. Single customers spend more on accessories and clothing while married customers spend more on bikes
 * Adult customers in the age group 35-59 spend more than youth (<=35 yrs.) and old customers (>= 59 yrs.). adult and youth group customers spend more on accessories and clothing, and old customers spend more on bikes
 * The yearly income of an individual affects the customer’s spending, customers with higher income (greater than $100,000) spend more on products
 * Female customers spend 50.7% of total purchases than male customers who spend 49.3%. female customers spend more on accessories and clothing while male customers spend more on bikes
 
-### Segments by purchase history
-#### Individual customers
-* Bikes lead by sales with 48.5% of total sales followed by clothing with 40.69%, and accessories with 10.81%
-* Sales have increased from May 2013 to date
-* Occasional high-spending customers who spend more than $ 3852 per order
-* Frequently and infrequently low/medium customers who spend $ 104-807 per order
-* In 2012, the company lost 227 individual customers while in 2013 the company is at risk of losing 7449 high-spending customers, 6409 low/medium spenders, and 6360 medium spenders 
+2. Purchase history
 
-#### Wholesale customers (store customers)
-* Bikes lead by sales with 40.47% of total sales followed by components with 32.52%, clothing with 18.71%, and accessories with 8.3%
+Individual customers (IN)
+
+* Bikes lead by sales with 31M sales followed by accessories with 26M sales, and clothing with 7M
+* Sales have been increasing since May 2013 
+* Total number of orders per month has been increasing since May 2013
+* low/medium spenders  who spend $ 624-3541 per customer
+* Road bikes, Mountain bikes, bottles, cages, Tires, and tubes are products leading to be purchased
+
+Store customers (SC)
+
+* Bikes lead by sales with 1.3B total sales followed by components with 930M sales, clothing with 535M sales, and accessories with 237M
 * Seasonal sales. Where many customers purchase mostly in June and July every year
-* Frequently high-spending customers who spend between $45,503 and $ 3,057,639 per order
-* Occasional high-spending customers who spend between $11,870 and $1,854,485 per order
-* In 2012, the company lost 2,283 high-spending customers; in 2013 the company is at risk of losing 5,968 high-spending customers.
+* High-spending customers who spend up to $4M 
+* Road bikes, mountain bikes, road frames, mountain frames, and touring bikes are the products mostly purchased
 
-# Recommendations
-* Since the company have high-spending customers at large that contribute significantly to company's revenue, they should personalize the marketing campaigns and promotions that will encourage them to make more purchases. For example Accessories products can be sold in promotion
-* Encourage low/medium and medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts 
-* Seasonal and infrequently purchasers.In this segment the company can implement loayalty programs for infrequently customers to return more often and limited-time offers to encourage customers to make purchase before the offer expires
-
+## Recommendations
+* Since the store has seasonal high-spending customers that contribute significantly to its revenue, it should personalize the marketing campaigns and promotions that will encourage them to make more purchases. These customers may be interested in premium services, exclusive products, or reward programs that cater to their high spending habits.
+* Encourage low/medium and medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts
+* To individual customers, the store can personalize promotions or discounts that will attract more sales. For example, single adult females show more interest in accessories and clothes.
 
