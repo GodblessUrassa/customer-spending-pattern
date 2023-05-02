@@ -1,14 +1,22 @@
 # Customer Spending Analysis
 SellCheapy Retail is a chain of department stores that sells a wide range of products, including bikes and different components. Despite having a large customer base, the company has been struggling to increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance. The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
-# Business problem
+## Business problem
 The company is having difficulties to increase sales
 
-# Project goal
-To give insights on customer spending patterns and recommend actions to be taken to increase sales
+## Project goal
+To give insights on customer spending and recommend actions to be taken to increase sales
 
-# Data importation
-The data is from AdventureWorks database. The AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer (Adventure Works Cycles). Scenarios include Manufacturing, Sales, Purchasing, Product Management, Contact Management, and Human Resources. 7 tables and 1 view were used from sales, people and product management scenarios. The tables are Sales.Customer, Sales.SalesOrderDetail, Sales.SalesOrderHeader, Person.Person, Sales.vPersonDemographics, Production.Product, Production.ProductCategory, Production.ProductSubcategory. 
+## Data preparation
+* Data source is AdventureWorks database. The AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer (Adventure Works Cycles).
+* Microsoft SQL Server management studio was the tool used to retrive data from database and perform data cleaning and transformation.
+* Tableau was the tool used to perform analysis to get trends and patterns and visualize insights.
+
+## Analysis
+The analysis was done in two segments, that is analysis based on demographic data of customers and analysis based on purchasing history of customers.
+
+* Using demographic data, customer spending was analyzed based on their income, marital status, gender, and age group
+* Using purchase history, customer spending was analyzed based on their total purchase made with time, products spending, and monetary spending
 
 Power BI was connected to SQL server database to access SellCheapy retail data.
 
