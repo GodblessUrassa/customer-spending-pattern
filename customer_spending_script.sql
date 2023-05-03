@@ -145,6 +145,7 @@ SELECT DISTINCT
 FROM 
 	[AdventureWorks2019].[Production].[ProductSubcategory]
 
+--- Generally, there are no duplicates in all tables.
 
 ---checking for NULLs
 
@@ -322,7 +323,7 @@ FROM #Person_spending
 SELECT
 	[CustomerID]
 	,Sales_Header.[SalesOrderID]
-    ,[OrderDate]
+        ,[OrderDate]
 	,category.Name as product_category
 	,subcategory.[Name] as subcategory_name
 	,product.[Name] as product_name
