@@ -9,7 +9,9 @@ To give insights on customer spending and recommend actions to be taken to incre
 
 ## Data preparation
 * Data source is AdventureWorks database. The AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer (Adventure Works Cycles).
-* Microsoft SQL Server management studio was the tool used to retrive data from database and perform data cleaning and transformation.
+* Microsoft SQL Server management studio was the tool used to retrive data from database and perform data cleaning and transformation. 
+* [Customer spending SQL script](customer_spending_script.sql)
+
 * Tableau was the tool used to perform analysis to get trends and patterns and visualize insights.
 
 ## Analysis
@@ -19,7 +21,10 @@ The analysis was done in two segments, that is analysis based on demographic dat
 * Using purchase history, customer spending was analyzed based on their total purchase made with time, products spending, and monetary spending
 
 ## Dashboard
-You can interact with dashboard by clicking [here](https://public.tableau.com/views/Customerspending_16829639821940/SELLCHEAPYRETAILCUSTOMERSPENDING?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop)
+
+#### You can interact with dashboard by clicking [here](https://public.tableau.com/views/Customerspending_16829639821940/SELLCHEAPYRETAILCUSTOMERSPENDING?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop)
+
+![](Tableau.png)
 
 ## Insights
 
@@ -31,7 +36,7 @@ You can interact with dashboard by clicking [here](https://public.tableau.com/vi
 
 2. Purchase history
 
-Individual customers (IN)
+Individual customers(IN) purchase history
 
 * Bikes lead by sales with $ 31M sales followed by accessories with $ 26M sales, and clothing with $ 7M
 * Sales have been increasing since May 2013 
@@ -39,7 +44,7 @@ Individual customers (IN)
 * low/medium spenders  who spend $ 624-3541 per customer
 * Road bikes, Mountain bikes, bottles, cages, Tires, and tubes are products leading to be purchased
 
-Store customers (SC)
+Store customers(SC) purchase history
 
 * Bikes lead by sales with 1.3B total sales followed by components with $ 930M sales, clothing with $ 535M sales, and accessories with $ 237M
 * Seasonal sales. Where many customers purchase mostly in June and July every year
