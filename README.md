@@ -38,7 +38,7 @@ The analysis was done in two segments, that is analysis based on demographic dat
 
 Individual customers(IN) purchase history
 
-* Bikes lead by sales with $ 31M sales followed by accessories with $ 26M sales, and clothing with $ 7M
+* Bikes lead by sales with $ 31M of total sales followed by accessories with $ 26M sales, and clothing with $ 7M
 * Sales have been increasing since May 2013 
 * Total number of orders per month has been increasing since May 2013
 * low/medium spenders  who spend $ 624-3541 per customer
