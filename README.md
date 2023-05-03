@@ -8,7 +8,7 @@ The company is having difficulties to increase sales
 To give insights on customer spending and recommend actions to be taken to increase sales
 
 ## Data preparation
-* Data source is AdventureWorks database. The AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer (Adventure Works Cycles).
+* Data source is AdventureWorks database. The AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer (Adventure Works Cycles). You can access the data [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/data-analysis-challenge-analyze-customer-spending-pattern/ba-p/3719590?WT.mc_id=academic-86947-ooyinbooke)
 * Microsoft SQL Server management studio was the tool used to retrive data from database and perform data cleaning and transformation. 
 * [Customer spending SQL script](customer_spending_script.sql)
 
