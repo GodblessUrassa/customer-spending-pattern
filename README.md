@@ -33,7 +33,7 @@ You can interact with dashboard by clicking [here](https://public.tableau.com/vi
 
 Individual customers (IN)
 
-* Bikes lead by sales with 31M sales followed by accessories with 26M sales, and clothing with 7M
+* Bikes lead by sales with $ 31M sales followed by accessories with $ 26M sales, and clothing with $ 7M
 * Sales have been increasing since May 2013 
 * Total number of orders per month has been increasing since May 2013
 * low/medium spenders  who spend $ 624-3541 per customer
@@ -41,7 +41,7 @@ Individual customers (IN)
 
 Store customers (SC)
 
-* Bikes lead by sales with 1.3B total sales followed by components with 930M sales, clothing with 535M sales, and accessories with 237M
+* Bikes lead by sales with 1.3B total sales followed by components with $ 930M sales, clothing with $ 535M sales, and accessories with $ 237M
 * Seasonal sales. Where many customers purchase mostly in June and July every year
 * High-spending customers who spend up to $4M 
 * Road bikes, mountain bikes, road frames, mountain frames, and touring bikes are the products mostly purchased
