@@ -1,22 +1,81 @@
 --** CUSTOMER SPENDING ANALYSIS**--
 
---Tables selected for analysis
+--select all tables from tables system database
+
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES
+
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_TYPE = 'BASE TABLE' -- there are 71 base tables 
+
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_TYPE = 'view' -- there are 20 views
+
+
+-- customer spending analysis will be divided into two segments, analysis basing on customer demographics and their purchase history
+-- Select tables with customer demographics and purchase history data
+
+SELECT *
+FROM INFORMATION_SCHEMA.TABLES
+WHERE TABLE_NAME IN ('Person','vPersonDemographics','SalesOrderDetail','SalesOrderHeader','Customer','Product','ProductCategory','ProductSubcategory')
+
+-- deterimine data types in selected tables
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Person'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'vPersonDemographics'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'SalesOrderDetail'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'SalesOrderHeader'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Customer'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'Product'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'ProductCategory'
+
+SELECT COLUMN_NAME
+		,DATA_TYPE
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'ProductSubCategory'
+
+-- Glimpse of tables selected
 
 SELECT TOP (1000) *
 FROM [AdventureWorks2019].[Person].[Person]
 
-
 SELECT TOP (1000) *
 FROM [AdventureWorks2019].[Sales].[vPersonDemographics]
-
 
 SELECT TOP (1000) *
 FROM [AdventureWorks2019].[Sales].[SalesOrderDetail]
 
-
 SELECT TOP (1000) *
 FROM [AdventureWorks2019].[Sales].[SalesOrderHeader]
-
 
 SELECT TOP (1000) *
 FROM [AdventureWorks2019].[Sales].[Customer]
