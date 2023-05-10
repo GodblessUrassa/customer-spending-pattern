@@ -51,7 +51,7 @@ The test found that there is no statistical difference in average spending betwe
 
 #### You can interact with dashboard by clicking [here](https://public.tableau.com/views/Customerspending_16829639821940/SELLCHEAPYRETAILCUSTOMERSPENDING?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop)
 
-![](Tableau.png)
+![](tableau_dashboard.png)
 
 ## Insights
 
@@ -81,5 +81,5 @@ Store customers(SC) purchase history
 ## Recommendations
 * Since the store has seasonal high-spending customers that contribute significantly to its revenue, it should personalize the marketing campaigns and promotions that will encourage them to make more purchases. These customers may be interested in premium services, exclusive products, or reward programs that cater to their high spending habits.
 * Encourage low/medium and medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts
-* To individual customers, the store can personalize promotions or discounts that will attract more sales. For example, single adult females show more interest in accessories and clothes.
+* To individual customers, the store can personalize promotions or discounts that will attract more sales. For example, adult customers with high income per year show more interest in accessories, bikes, and clothes.
 
