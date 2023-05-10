@@ -20,6 +20,33 @@ The analysis was done in two segments, that is analysis based on demographic dat
 * Using demographic data, customer spending was analyzed based on their income, marital status, gender, and age group
 * Using purchase history, customer spending was analyzed based on their total purchase made with time, products spending, and monetary spending
 
+### Statistical tests
+Average spending of customers basing on gender and marital status have very little difference. An independent sample t-test was taken to check if they are statistically different
+
+#### Hypothesis, Spending by Gender 
+
+Null hypothesis = There is no difference in average spending between male and female customers
+
+Alternative hypothesis = There is difference in average spending between male and female
+
+α = 0.05
+
+![](gender_T_test.jpg)
+
+The test found that there is no statistical difference in average spending between male and female customers, t(27657) = 1, p = 0.16
+
+#### Hypothesis, Spending by Marital status 
+
+Null hypothesis = There is no difference in average spending between married and single customers
+
+Alternative hypothesis = There is difference in average spending between married and single
+
+α = 0.05
+
+![](marital_T_test.jpg)
+
+The test found that there is no statistical difference in average spending between married and single customers, t(27657) = 0.69, p = 0.25
+
 ## Dashboard
 
 #### You can interact with dashboard by clicking [here](https://public.tableau.com/views/Customerspending_16829639821940/SELLCHEAPYRETAILCUSTOMERSPENDING?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop)
@@ -29,10 +56,10 @@ The analysis was done in two segments, that is analysis based on demographic dat
 ## Insights
 
 1. Demographic
-* Customers with single marital status spend more than married customers. Single customers spend more on accessories and clothing while married customers spend more on bikes
-* Adult customers in the age group 35-59 spend more than youth (<=35 yrs.) and old customers (>= 59 yrs.). adult and youth group customers spend more on accessories and clothing, and old customers spend more on bikes
+* Married and single customers have the same average spending. 
+* Adult customers in the age group 35-59 spend more than youth (<=35 yrs.) and old customers (>= 59 yrs.). Adult customers spend more on accessories, clothing, and bikes. Old customers spend more on bikes
 * The yearly income of an individual affects the customer’s spending, customers with higher income (greater than $100,000) spend more on products
-* Female customers spend 50.7% of total purchases than male customers who spend 49.3%. female customers spend more on accessories and clothing while male customers spend more on bikes
+* Female and male customers have the same average spending. 
 
 2. Purchase history
 
