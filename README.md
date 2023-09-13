@@ -30,6 +30,7 @@ A star schema desing was built with addition of two tables, Wholesale value segm
 ## Analysis and Visualization
 The analysis was done to understand retail customers spending patterns and wholesale customers spending patterns.
 
+
 Iteract with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)
 
 
@@ -60,36 +61,21 @@ Alternative hypothesis = There is difference in average spending between married
 
 The test found that there is no statistical difference in average spending between married and single customers, t(27657) = 0.69, p = 0.25
 
-## Dashboard
-
-#### You can interact with dashboard by clicking [here](https://public.tableau.com/views/Customerspending_16829639821940/SELLCHEAPYRETAILCUSTOMERSPENDING?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link&:device=desktop)
-
-![](tableau_dashboard.png)
-
 ## Insights
 
-1. Demographic
-* Married and single customers have the same average spending. 
-* Adult customers in the age group 35-59 spend more than youth (<=35 yrs.) and old customers (>= 59 yrs.). Adult customers spend more on accessories, clothing, and bikes. Old customers spend more on bikes
-* The yearly income of an individual affects the customer’s spending, customers with higher income (greater than $100,000) spend more on products
-* Female and male customers have the same average spending. 
+1. Retail Customers
+* Retail customers don't buy bicycle components from the store!, they purchase mostly bikes, clothing, and accessories
+* Generally, customer spending increases as time increases
+* Customer with high income per year (greater than 100,000) and those with the lowest income per year (0-25,000) they spend less in all product categories. Customers with high income per year spend 12.78% of the total purchase made while with low income spend 11.60% 
+* The most demanded products are bikes, customer spending across the years have being high compared to other products (accessories and clothing) 
+* Customers who are old spend more in all store products compared to adult and youth. 66.22% of the total purchases made are from customers who are old.
+* Male and female have equal share of Total purchases made. Female have 50.46% of the total purchase and male have 49.54% of the total purchase 
 
-2. Purchase history
-
-Individual customers(IN) purchase history
-
-* Bikes lead by sales with $ 31M of total sales followed by accessories with $ 26M sales, and clothing with $ 7M
-* Sales have been increasing since May 2013 
-* Total number of orders per month has been increasing since May 2013
-* low/medium spenders  who spend $ 624-3541 per customer
-* Road bikes, Mountain bikes, bottles, cages, Tires, and tubes are products leading to be purchased
-
-Store customers(SC) purchase history
-
-* Bikes lead by sales with 1.3B total sales followed by components with $ 930M sales, clothing with $ 535M sales, and accessories with $ 237M
-* Seasonal sales. Where many customers purchase mostly in June and July every year
-* High-spending customers who spend up to $4M 
-* Road bikes, mountain bikes, road frames, mountain frames, and touring bikes are the products mostly purchased
+2. Wholesale Customers
+* Wholesale customers purchase all product categories from the store (bikes, clothing, accessories, and components)
+* Generally, customer spending have been increasing as time increases. June and July are the season months with high purchase made by customers  
+* The most demanded products are bikes followed bicycle components. Their customer spending have being high across the years 
+* Customers who have high spending contribute more on the total purchase 
 
 ## Recommendations
 * Since the store has seasonal high-spending customers that contribute significantly to its revenue, it should personalize the marketing campaigns and promotions that will encourage them to make more purchases. These customers may be interested in premium services, exclusive products, or reward programs that cater to their high spending habits.
