@@ -1,5 +1,7 @@
-# Customer Spending Analysis
-SellCheapy Retail is a chain of department stores that sells a wide range of products, including bikes and different components. Despite having a large customer base, the company has been struggling to increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance. The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
+# Customer Spending 
+Customer spending is the total money customers spend on goods and services for personal use. Customer spending can be compared based on time, location, age, income and others. For example, Youth spend more money on mobile phones than old people. In businesses, understanding spending patterns of your customers is very crusial. They help businesses to develop strategies for marketing, adapting to market changes, retaining customers, profit maximization and e.t.c
+# Business Scenario
+Sell Cheapy Retail is a chain of department stores that sells a wide range of products, including bikes and different components. Despite having a large customer base, the company has been struggling to increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance. The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
 ## Business problem
 The company is having difficulties to increase sales
@@ -7,18 +9,29 @@ The company is having difficulties to increase sales
 ## Project goal
 To give insights on customer spending and recommend actions to be taken to increase sales
 
-## Data preparation
-* Data source is AdventureWorks database. The AdventureWorks database supports standard online transaction processing scenarios for a fictitious bicycle manufacturer (Adventure Works Cycles). You can access the data [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/data-analysis-challenge-analyze-customer-spending-pattern/ba-p/3719590?WT.mc_id=academic-86947-ooyinbooke)
-* Microsoft SQL Server management studio was the tool used to retrive data from database and perform data cleaning and transformation. 
+## Data collection
+Data was collected from Sell Cheapy Retail database using Microsoft SQL Server management studio and stored in table views of the database.
+You can access the data [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/data-analysis-challenge-analyze-customer-spending-pattern/ba-p/3719590?WT.mc_id=academic-86947-ooyinbooke)
 * [Customer spending SQL script](customer_spending_script.sql)
+* The SQL script shows how you can access database metadata, Table selection, Duplicate checking, and Creating views
 
-* Tableau was the tool used to perform analysis to get trends and patterns and visualize insights.
+## Extraction, Transform, and Load (ETL)
+Power BI is the tool used to to perform ETL, data modeling, analysis and visualization
 
-## Analysis
-The analysis was done in two segments, that is analysis based on demographic data of customers and analysis based on purchasing history of customers.
+Extracted 8 table views from database and Transformed them. Some of the activities in data transformation includes Renaming of columns, replacing values, re-ordering columns, merging queries, removing columns and rows, and changing data types.
+Three (3) tables were loaded into data model.
+## Data model
+A star schema desing was built with addition of two tables, Wholesale value segmentation table and Calendar table
+* Calendar table, wholesale table, measures and calculated columns were added in the model.
+* Measures added were Total Purchases and Average order value
+* Wholesale value segmentation table was added purposely to segment wholesale customers by average customer value. Four segments were used High, medium, low-medium, and low
+* Calculated columns 'Age' and 'Age groups' were added. Three age groups were used; Old with > 59 yrs, Adult with > 35 yrs and youth with <= 35 yrs
 
-* Using demographic data, customer spending was analyzed based on their income, marital status, gender, and age group
-* Using purchase history, customer spending was analyzed based on their total purchase made with time, products spending, and monetary spending
+## Analysis and Visualization
+The analysis was done to understand retail customers spending patterns and wholesale customers spending patterns.
+
+Iteract with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)
+
 
 ### Statistical tests
 Average spending of customers basing on gender and marital status have very little difference. An independent sample t-test was taken to check if they are statistically different
