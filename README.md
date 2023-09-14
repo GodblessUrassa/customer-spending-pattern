@@ -1,5 +1,10 @@
+![](maininterior.jpg)
+|_Courtesy of Tangletown Bike Shop_|
+|---|
 # Customer Spending 
 Customer spending is the total money customers spend on goods and services for personal use. Customer spending can be compared based on time, location, age, income and others. For example, Youth spend more money on mobile phones than old people. In businesses, understanding spending patterns of your customers is very crusial. They help businesses to develop strategies for marketing, adapting to market changes, retaining customers, profit maximization and e.t.c
+
+One thing to note is that consumer spending may not vary in the short term, for example, daily. Consumers might respond to changes in prices, incomes, or tastes to change their spending. This factors don't change daily and so consumers spending. Let's check a scenario on how to extract consumer spending patterns and use them to improve a business.
 # Business Scenario
 Sell Cheapy Retail is a chain of department stores that sells a wide range of products, including bikes and different components. Despite having a large customer base, the company has been struggling to increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance. The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
@@ -16,7 +21,7 @@ You can access the data [here](https://techcommunity.microsoft.com/t5/educator-d
 * The SQL script shows how you can access database metadata, Table selection, Duplicate checking, and Creating views
 
 ## Extraction, Transform, and Load (ETL)
-Power BI is the tool used to to perform ETL, data modeling, analysis and visualization.
+Power BI is the tool used to perform ETL, data modeling, analysis and visualization.
 
 |Database connection|
 |---|
@@ -58,31 +63,16 @@ Iteract with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZW
 
 
 ### Statistical tests
-Average spending of customers basing on gender and marital status have very little difference. An independent sample t-test was taken to check if they are statistically different
+Average spending of customers basing on gender have very little difference. An independent sample t-test was taken to check if they are statistically different
 
 #### Hypothesis, Spending by Gender 
-
-Null hypothesis = There is no difference in average spending between male and female customers
-
-Alternative hypothesis = There is difference in average spending between male and female
-
-α = 0.05
+* Null hypothesis = There is no difference in average spending between male and female customers
+* Alternative hypothesis = There is difference in average spending between male and female
+* α = 0.05
 
 ![](gender_T_test.jpg)
 
 The test found that there is no statistical difference in average spending between male and female customers, t(27657) = 1, p = 0.16
-
-#### Hypothesis, Spending by Marital status 
-
-Null hypothesis = There is no difference in average spending between married and single customers
-
-Alternative hypothesis = There is difference in average spending between married and single
-
-α = 0.05
-
-![](marital_T_test.jpg)
-
-The test found that there is no statistical difference in average spending between married and single customers, t(27657) = 0.69, p = 0.25
 
 ## Insights
 
