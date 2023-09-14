@@ -12,24 +12,47 @@ To give insights on customer spending and recommend actions to be taken to incre
 ## Data collection
 Data was collected from Sell Cheapy Retail database using Microsoft SQL Server management studio and stored in table views of the database.
 You can access the data [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/data-analysis-challenge-analyze-customer-spending-pattern/ba-p/3719590?WT.mc_id=academic-86947-ooyinbooke)
-* [Customer spending SQL script](customer_spending_script.sql)
+* [Data collection SQL script](customer_spending_script.sql)
 * The SQL script shows how you can access database metadata, Table selection, Duplicate checking, and Creating views
 
 ## Extraction, Transform, and Load (ETL)
-Power BI is the tool used to to perform ETL, data modeling, analysis and visualization
+Power BI is the tool used to to perform ETL, data modeling, analysis and visualization.
+
+|Database connection|
+|---|
+|![](database_connection.jpg)|
 
 Extracted 8 table views from database and Transformed them. Some of the activities in data transformation includes Renaming of columns, replacing values, re-ordering columns, merging queries, removing columns and rows, and changing data types.
+
 Three (3) tables were loaded into data model.
-## Data model
+
+|Customer table|Product table|Order details table|
+|---|---|---|
+|![](customers_dtransformation.jpg)|![](product_transformation.jpg)|![](order_details_transformation.jpg)|
+
+## Data Model
 A star schema desing was built with addition of two tables, Wholesale value segmentation table and Calendar table
+
+|Star Schema model|
+|---|
+|![](data_model.jpg)|
+
 * Calendar table, wholesale table, measures and calculated columns were added in the model.
 * Measures added were Total Purchases and Average order value
-* Wholesale value segmentation table was added purposely to segment wholesale customers by average customer value. Four segments were used High, medium, low-medium, and low
-* Calculated columns 'Age' and 'Age groups' were added. Three age groups were used; Old with > 59 yrs, Adult with > 35 yrs and youth with <= 35 yrs
+* Wholesale value segmentation table was added purposely to segment wholesale customers by average customer value. Four segments were introduced High, medium, low-medium, and low
+* Calculated columns 'Age' and 'Age groups' were added. Three age groups were introduced; Old with > 59 yrs, Adult with > 35 yrs and youth with <= 35 yrs
 
 ## Analysis and Visualization
 The analysis was done to understand retail customers spending patterns and wholesale customers spending patterns.
 
+|Retail Customers Spending Patterns|
+|---|
+|![](retail_spending.jpg)|
+
+
+|Wholesale Customers Spending Patterns|
+|---|
+|![](wholesale_spending.jpg)|
 
 Iteract with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)
 
