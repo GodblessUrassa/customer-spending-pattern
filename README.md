@@ -32,9 +32,13 @@ Extracted 8 table views from database and Transformed them. Some of the activiti
 
 Three (3) tables were loaded into data model.
 
-|Customer table|Product table|Order details table|
-|---|---|---|
-|![](customers_dtransformation.jpg)|![](product_transformation.jpg)|![](order_details_transformation.jpg)|
+|Customer table|Product table|
+|---|---|
+|![](customers_dtransformation.jpg)|![](product_transformation.jpg)|
+
+|Order details table|
+|---|
+|![](order_details_transformation.jpg)|
 
 ## Data Model
 A star schema desing was built with addition of two tables, Wholesale value segmentation table and Calendar table
