@@ -5,6 +5,7 @@
 Customer spending is the total money customers spend on goods and services for personal use. Customer spending can be compared based on time, location, age, income and others. For example, Youth spend more money on mobile phones than old people. In businesses, understanding spending patterns of your customers is very crusial. They help businesses to develop strategies for marketing, adapting to market changes, retaining customers, profit maximization and e.t.c
 
 One thing to note is that consumer spending may not vary in the short term, for example, daily. Consumers might respond to changes in prices, incomes, or tastes to change their spending. This factors don't change daily and so consumers spending. Let's check a scenario on how to extract consumer spending patterns and use them to improve a business.
+
 # Business Scenario
 Sell Cheapy Retail is a chain of department stores that sells a wide range of products, including bikes and different components. Despite having a large customer base, the company has been struggling to increase sales in recent years. The management team is looking to use data analysis to understand customer spending patterns and make changes to their sales and marketing strategies to improve performance. The company collected data on customer demographics, purchasing history, and other relevant information over the course of a year. The data includes information on the products purchased, the price paid, and the date of purchase, etc.
 
