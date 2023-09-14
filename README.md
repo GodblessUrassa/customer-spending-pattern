@@ -89,10 +89,11 @@ The test found that there is no statistical difference in average spending betwe
 * Wholesale customers purchase all product categories from the store (bikes, clothing, accessories, and components)
 * Generally, customer spending have been increasing as time increases. June and July are the season months with high purchase made by customers  
 * The most demanded products are bikes followed bicycle components. Their customer spending have being high across the years 
-* Customers who have high spending contribute more on the total purchase 
+* Most of the wholesale customers are High spending customers. 74.72% of the total purchase made are from High spending customers.
 
 ## Recommendations
 * Since the store has seasonal high-spending customers that contribute significantly to its revenue, it should personalize the marketing campaigns and promotions that will encourage them to make more purchases. These customers may be interested in premium services, exclusive products, or reward programs that cater to their high spending habits.
-* Encourage low/medium and medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts
-* To individual customers, the store can personalize promotions or discounts that will attract more sales. For example, adult customers with high income per year show more interest in accessories, bikes, and clothes.
+* Encourage medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts
+* To retail customers, the store can personalize promotions or discounts that will attract more sales. For example, old group customers.
+* Further analysis should be done on cross selling which can boost the purchase of accessories and clothing products
 
