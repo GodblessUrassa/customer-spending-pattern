@@ -32,9 +32,13 @@ Extracted 8 table views from database and Transformed them. Some of the activiti
 
 Three (3) tables were loaded into data model.
 
-|Customer table|Product table|
-|---|---|
-|![](customers_dtransformation.jpg)|![](product_transformation.jpg)|
+|Customer table|
+|---|
+|![](customers_dtransformation.jpg)|
+
+|Product table|
+|---|
+|![](product_transformation.jpg)|
 
 |Order details table|
 |---|
