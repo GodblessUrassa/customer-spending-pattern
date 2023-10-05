@@ -61,14 +61,14 @@ The analysis was done to understand retail customers spending patterns and whole
 
 |Retail Customers Spending Patterns|
 |---|
-|![](retail_spending.jpg)|
+|[![interact with report](retail_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
 
 
 |Wholesale Customers Spending Patterns|
 |---|
-|![](wholesale_spending.jpg)|
+|[![interact with report](wholesale_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
 
-Iteract with the report [here](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)
+
 
 
 ### Statistical tests
