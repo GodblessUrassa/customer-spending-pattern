@@ -15,6 +15,51 @@ The company is having difficulties to increase sales
 ## Project goal
 To give insights on customer spending and recommend actions to be taken to increase sales
 
+## Approach
+The analysis was divided into two, Retail customer spending and Wholesale customer spending
+
+
+**a) Retail Analysis**
+
+Analyzed how customers spend based on their yearly income, Age groups, sex, product categories, and their spending history.
+Three age groups were created; Old with years greater than 59, Adult with years greater than 35, and below 35 are youth group
+
+|Retail Customers Spending Patterns|
+|---|
+|[![interact with report](retail_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
+
+#### Key Retail Insights
+* Customer with high income per year (greater than 100,000) and those with the lowest income per year (0-25,000) they spend less in all product categories. Customers with high income per year spend 12.78% of the total purchase made while with low income spend 11.60%
+* Spending in bikes has being increasing across the years while spending in accessories and clothing have not changed across the years
+* Customers who are old spend more in all store products compared to adult and youth. 66.22% of the total purchases made are from customers who are old while Youth is 0.54% and Adult 33.25%
+
+**Other Insights**
+* Retail customers don't buy bicycle components from the store!, they purchase mostly bikes, clothing, and accessories
+* Generally; May, March, April, and November are the months customers spend more compared to September, July, and June  
+* Male and female have equal share of Total purchases made. Female have 50.46% of the total purchase and male have 49.54% of the total purchase 
+
+**b) Wholesale analysis**
+
+Analyzed their spending basing on products, purchase history, and customer value segments. Created four segments based on their total purchases; High spenders, medium, low-medium, and low spenders
+
+|Wholesale Customers Spending Patterns|
+|---|
+|[![interact with report](wholesale_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
+
+#### Key Wholesale Insights
+* Wholesale customers have seasonal spending with june and july being the months with high purchase across the years  
+* The most demanded product are bikes, spending on bikes have being increasing across the years. Other products (components, clothing, and accessories) have very low demand.
+* Most of the wholesale customers are High spending customers. 74.72% of the total purchase made are from High spending customers.
+
+**Others**
+* Wholesale customers purchase all product categories from the store (bikes, clothing, accessories, and components) compared to retail customers
+
+## Recommendations
+* Since the store has seasonal high-spending customers that contribute significantly to its revenue, it should personalize the marketing campaigns and promotions that will encourage them to make more purchases. These customers may be interested in premium services, exclusive products, or reward programs that cater to their high spending habits.
+* Encourage medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts
+* To retail customers, the store can personalize promotions or discounts that will attract more sales. For example, Adult and Youth group customers.
+* Further analysis should be done on cross selling which can boost the purchase of accessories, clothing products, and bike components
+
 ## Data collection
 Data was collected from Sell Cheapy Retail database using Microsoft SQL Server management studio and stored in table views of the database.
 You can access the data [here](https://techcommunity.microsoft.com/t5/educator-developer-blog/data-analysis-challenge-analyze-customer-spending-pattern/ba-p/3719590?WT.mc_id=academic-86947-ooyinbooke)
@@ -56,21 +101,6 @@ A star schema desing was built with addition of two tables, Wholesale value segm
 * Wholesale value segmentation table was added purposely to segment wholesale customers by average customer value. Four segments were introduced High, medium, low-medium, and low
 * Calculated columns 'Age' and 'Age groups' were added. Three age groups were introduced; Old with > 59 yrs, Adult with > 35 yrs and youth with <= 35 yrs
 
-## Analysis and Visualization
-The analysis was done to understand retail customers spending patterns and wholesale customers spending patterns.
-
-|Retail Customers Spending Patterns|
-|---|
-|[![interact with report](retail_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
-
-
-|Wholesale Customers Spending Patterns|
-|---|
-|[![interact with report](wholesale_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
-
-
-
-
 ### Statistical tests
 Average spending of customers basing on gender have very little difference. An independent sample t-test was taken to check if they are statistically different
 
@@ -83,25 +113,5 @@ Average spending of customers basing on gender have very little difference. An i
 
 The test found that there is no statistical difference in average spending between male and female customers, t(27657) = 1, p = 0.16
 
-## Insights
 
-1. Retail Customers
-* Retail customers don't buy bicycle components from the store!, they purchase mostly bikes, clothing, and accessories
-* Generally, customer spending increases as time increases
-* Customer with high income per year (greater than 100,000) and those with the lowest income per year (0-25,000) they spend less in all product categories. Customers with high income per year spend 12.78% of the total purchase made while with low income spend 11.60% 
-* The most demanded products are bikes, customer spending across the years have being high compared to other products (accessories and clothing) 
-* Customers who are old spend more in all store products compared to adult and youth. 66.22% of the total purchases made are from customers who are old.
-* Male and female have equal share of Total purchases made. Female have 50.46% of the total purchase and male have 49.54% of the total purchase 
-
-2. Wholesale Customers
-* Wholesale customers purchase all product categories from the store (bikes, clothing, accessories, and components)
-* Generally, customer spending have been increasing as time increases. June and July are the season months with high purchase made by customers  
-* The most demanded products are bikes followed bicycle components. Their customer spending have being high across the years 
-* Most of the wholesale customers are High spending customers. 74.72% of the total purchase made are from High spending customers.
-
-## Recommendations
-* Since the store has seasonal high-spending customers that contribute significantly to its revenue, it should personalize the marketing campaigns and promotions that will encourage them to make more purchases. These customers may be interested in premium services, exclusive products, or reward programs that cater to their high spending habits.
-* Encourage medium spenders. This segment has the potential to spend more, so it may be worthwhile to encourage them to spend more with incentives such as discounts
-* To retail customers, the store can personalize promotions or discounts that will attract more sales. For example, old group customers.
-* Further analysis should be done on cross selling which can boost the purchase of accessories and clothing products
 
