@@ -28,6 +28,7 @@ Three age groups were created; Old with years greater than 59, Adult with years 
 |---|
 |[![interact with report](retail_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
 
+
 #### Key Retail Insights
 * Customer with high income per year (greater than 100,000) and those with the lowest income per year (0-25,000) they spend less in all product categories. Customers with high income per year spend 12.78% of the total purchase made while with low income spend 11.60%
 * Spending in bikes has being increasing across the years while spending in accessories and clothing have not changed across the years
