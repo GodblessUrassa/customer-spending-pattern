@@ -24,6 +24,7 @@ The analysis was divided into two, Retail customer spending and Wholesale custom
 Analyzed how customers spend based on their yearly income, Age groups, sex, product categories, and their spending history.
 Three age groups were created; Old with years greater than 59, Adult with years greater than 35, and below 35 are youth group
 
+#### Click the report image to interact 
 |Retail Customers Spending Patterns|
 |---|
 |[![interact with report](retail_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
@@ -43,6 +44,7 @@ Three age groups were created; Old with years greater than 59, Adult with years 
 
 Analyzed their spending basing on products, purchase history, and customer value segments. Created four segments based on their total purchases; High spenders, medium, low-medium, and low spenders
 
+#### Click the report image to interact 
 |Wholesale Customers Spending Patterns|
 |---|
 |[![interact with report](wholesale_report.jpg)](https://app.powerbi.com/view?r=eyJrIjoiMDc3OWVmZWYtMjdmZi00YjM3LWI3NjMtNjA0YjU1ZjJlOGM5IiwidCI6Ijc5M2EyYzE5LTY4N2ItNGJmOS05ZTBlLWJkOTU3YmE3ZDgxMyJ9)|
