@@ -11,15 +11,15 @@ Sell Cheapy Retail is a chain of department stores that sells a wide range of pr
 The company is having difficulties to increase sales
 
 ## Project goal
-To give insights on customer spending and recommend actions to be taken to increase sales
+To uncover customer spending patterns and recommend actions to be taken to increase sales
 
 ## Approach
 The analysis was divided into two, Retail customer spending and Wholesale customer spending
 
 
-**a) Retail Analysis**
+**a) Retail Customers**
 
-Analyzed how customers spend based on their yearly income, Age groups, sex, product categories, and their spending history.
+Analyzed how retail customers spend based on their yearly income, Age groups, sex, product categories, and their spending history.
 Three age groups were created; Old with years greater than 59, Adult with years greater than 35, and below 35 are youth group
 
 #### Click the report image to interact 
@@ -38,7 +38,7 @@ Three age groups were created; Old with years greater than 59, Adult with years 
 * Generally; May, March, April, and November are the months customers spend more compared to September, July, and June  
 * Male and female have equal share of Total purchases made. Female have 50.46% of the total purchase and male have 49.54% of the total purchase 
 
-**b) Wholesale analysis**
+**b) Wholesale Customers**
 
 Analyzed their spending basing on products, purchase history, and customer value segments. Created four segments based on their total purchases; High spenders, medium, low-medium, and low spenders
 
